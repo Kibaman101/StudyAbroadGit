@@ -2,8 +2,8 @@
 //  StudyAbroadTests.swift
 //  StudyAbroadTests
 //
-//  Created by Michael Litman on 4/3/15.
-//  Copyright (c) 2015 Michael Litman. All rights reserved.
+//  Created by Nick Schumacher on 4/3/15.
+//  Copyright (c) 2015 Nick Schumacher. All rights reserved.
 //
 
 import UIKit

@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A01EF8CC1AD33AB700848014 /* p3ahr9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A01EF8CB1AD33AB700848014 /* p3ahr9.jpg */; };
 		B8DEDDC21ACF0B0200431DD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DEDDC11ACF0B0200431DD8 /* AppDelegate.swift */; };
 		B8DEDDC41ACF0B0200431DD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DEDDC31ACF0B0200431DD8 /* ViewController.swift */; };
 		B8DEDDC71ACF0B0200431DD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8DEDDC51ACF0B0200431DD8 /* Main.storyboard */; };
 		B8DEDDC91ACF0B0200431DD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8DEDDC81ACF0B0200431DD8 /* Images.xcassets */; };
 		B8DEDDCC1ACF0B0200431DD8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8DEDDCA1ACF0B0200431DD8 /* LaunchScreen.xib */; };
 		B8DEDDD81ACF0B0200431DD8 /* StudyAbroadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DEDDD71ACF0B0200431DD8 /* StudyAbroadTests.swift */; };
+		B8DEDDE21ACF0F6500431DD8 /* ListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DEDDE11ACF0F6500431DD8 /* ListTVC.swift */; };
+		B8DEDDE41ACF103800431DD8 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DEDDE31ACF103800431DD8 /* DetailVC.swift */; };
+		B8DEDDE71ACF182F00431DD8 /* rickRolled.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8DEDDE61ACF182F00431DD8 /* rickRolled.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A01EF8CB1AD33AB700848014 /* p3ahr9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p3ahr9.jpg; sourceTree = "<group>"; };
 		B8DEDDBC1ACF0B0200431DD8 /* StudyAbroad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyAbroad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8DEDDC01ACF0B0200431DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8DEDDC11ACF0B0200431DD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +41,9 @@
 		B8DEDDD11ACF0B0200431DD8 /* StudyAbroadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyAbroadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8DEDDD61ACF0B0200431DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8DEDDD71ACF0B0200431DD8 /* StudyAbroadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyAbroadTests.swift; sourceTree = "<group>"; };
+		B8DEDDE11ACF0F6500431DD8 /* ListTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTVC.swift; sourceTree = "<group>"; };
+		B8DEDDE31ACF103800431DD8 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		B8DEDDE61ACF182F00431DD8 /* rickRolled.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rickRolled.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +85,11 @@
 		B8DEDDBE1ACF0B0200431DD8 /* StudyAbroad */ = {
 			isa = PBXGroup;
 			children = (
+				B8DEDDE51ACF180000431DD8 /* images */,
 				B8DEDDC11ACF0B0200431DD8 /* AppDelegate.swift */,
 				B8DEDDC31ACF0B0200431DD8 /* ViewController.swift */,
+				B8DEDDE11ACF0F6500431DD8 /* ListTVC.swift */,
+				B8DEDDE31ACF103800431DD8 /* DetailVC.swift */,
 				B8DEDDC51ACF0B0200431DD8 /* Main.storyboard */,
 				B8DEDDC81ACF0B0200431DD8 /* Images.xcassets */,
 				B8DEDDCA1ACF0B0200431DD8 /* LaunchScreen.xib */,
@@ -110,6 +121,15 @@
 				B8DEDDD61ACF0B0200431DD8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8DEDDE51ACF180000431DD8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A01EF8CB1AD33AB700848014 /* p3ahr9.jpg */,
+				B8DEDDE61ACF182F00431DD8 /* rickRolled.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,10 +177,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0620;
-				ORGANIZATIONNAME = "Michael Litman";
+				ORGANIZATIONNAME = "Nick Schumacher";
 				TargetAttributes = {
 					B8DEDDBB1ACF0B0100431DD8 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = Q287L2E8L3;
 					};
 					B8DEDDD01ACF0B0200431DD8 = {
 						CreatedOnToolsVersion = 6.2;
@@ -192,9 +213,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8DEDDE71ACF182F00431DD8 /* rickRolled.jpg in Resources */,
 				B8DEDDC71ACF0B0200431DD8 /* Main.storyboard in Resources */,
 				B8DEDDCC1ACF0B0200431DD8 /* LaunchScreen.xib in Resources */,
 				B8DEDDC91ACF0B0200431DD8 /* Images.xcassets in Resources */,
+				A01EF8CC1AD33AB700848014 /* p3ahr9.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +235,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8DEDDE21ACF0F6500431DD8 /* ListTVC.swift in Sources */,
+				B8DEDDE41ACF103800431DD8 /* DetailVC.swift in Sources */,
 				B8DEDDC41ACF0B0200431DD8 /* ViewController.swift in Sources */,
 				B8DEDDC21ACF0B0200431DD8 /* AppDelegate.swift in Sources */,
 			);
@@ -336,9 +361,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = StudyAbroad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -346,9 +374,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = StudyAbroad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -405,6 +436,7 @@
 				B8DEDDDD1ACF0B0200431DD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8DEDDDE1ACF0B0200431DD8 /* Build configuration list for PBXNativeTarget "StudyAbroadTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +445,7 @@
 				B8DEDDE01ACF0B0200431DD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
