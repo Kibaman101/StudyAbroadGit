@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C2513" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Qiy-mT-KXW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14C2513" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Qiy-mT-KXW">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
         <!--Study Abroad-->
@@ -117,7 +117,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="RXG-uX-BCF" kind="show" id="kAE-75-8XW"/>
+                                            <segue destination="R4S-TI-zuh" kind="show" id="qpF-tc-pMY"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -132,31 +132,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jzy-kg-tpA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="853" y="114"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="7lj-F2-nYV">
-            <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="85V-5r-2uv" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="RXG-uX-BCF" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ywf-x7-bBr"/>
-                        <viewControllerLayoutGuide type="bottom" id="TQY-ji-494"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Jkb-eS-PmO">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="p3ahr9.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="rMi-os-0Id">
-                                <rect key="frame" x="16" y="84" width="291" height="400"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                </viewController>
-            </objects>
-            <point key="canvasLocation" x="650" y="778"/>
+            <point key="canvasLocation" x="841" y="114"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="2nk-gM-5qg">
@@ -221,7 +197,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IHJ-BE-Qli" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1303" y="433"/>
+            <point key="canvasLocation" x="1295" y="425"/>
         </scene>
         <!--ListTVC-->
         <scene sceneID="T8r-AL-4EZ">
@@ -346,7 +322,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ftm-sY-nPd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1791" y="1883"/>
+            <point key="canvasLocation" x="2425" y="873"/>
         </scene>
         <!--ListTVC-->
         <scene sceneID="lYM-rd-nh7">
@@ -422,7 +398,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fWs-5p-nYP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1281" y="-211"/>
+            <point key="canvasLocation" x="1295" y="-197"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="68m-rO-iSV">
@@ -837,7 +813,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ldp-zs-jSg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1642" y="-211"/>
+            <point key="canvasLocation" x="1642" y="-197"/>
         </scene>
         <!--ListTVC-->
         <scene sceneID="PPg-Mi-ecQ">
@@ -928,13 +904,77 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A0R-Wc-cSD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2010" y="-211"/>
+            <point key="canvasLocation" x="1988" y="-197"/>
+        </scene>
+        <!--Looking For UniversityTVC-->
+        <scene sceneID="eCP-ug-1VC">
+            <objects>
+                <tableViewController storyboardIdentifier="LookingForUniversityTVC" id="R4S-TI-zuh" customClass="LookingForUniversityTVC" customModule="StudyAbroad" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="DXc-ci-xuf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="kk3-uu-Xag">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kk3-uu-Xag" id="3PJ-PC-fzr">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="R4S-TI-zuh" id="WyK-jz-9by"/>
+                            <outlet property="delegate" destination="R4S-TI-zuh" id="IUa-tm-vnp"/>
+                        </connections>
+                    </tableView>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="theQuestionsTV" destination="DXc-ci-xuf" id="90R-6W-GAe"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cWw-rq-aDH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="428" y="747"/>
+        </scene>
+        <!--Looking For University AnswersTVC-->
+        <scene sceneID="JRp-Ue-LpK">
+            <objects>
+                <tableViewController storyboardIdentifier="LookingForUniversityAnswersTVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pNA-Ac-nrR" customClass="LookingForUniversityAnswersTVC" customModule="StudyAbroad" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Zw2-9x-Jvz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" textLabel="nU1-6s-FUS" style="IBUITableViewCellStyleDefault" id="0fl-ng-n35">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0fl-ng-n35" id="HBw-qY-euU">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Answer 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nU1-6s-FUS">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="pNA-Ac-nrR" id="Xt6-fh-9rE"/>
+                            <outlet property="delegate" destination="pNA-Ac-nrR" id="2tT-nf-sZx"/>
+                        </connections>
+                    </tableView>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rtI-zs-nN6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="841" y="747"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="p3ahr9.jpg" width="291" height="400"/>
-    </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="VKy-DA-tdg"/>
+        <segue reference="qK7-dS-j9e"/>
     </inferredMetricsTieBreakers>
 </document>

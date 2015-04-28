@@ -24,6 +24,7 @@
                   continueAfterRunningActions = "No"
                   symbolName = "StudyAbroad.DetailVC.theTextView.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UITextView&gt;"
                   moduleName = "StudyAbroad"
+                  usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/nickschumacher/Desktop/Development/Study%20Abroad/StudyAbroad/StudyAbroad/DetailVC.swift"
                   timestampString = "450040783.136057"
                   startingColumnNumber = "9223372036854775807"
@@ -38,6 +39,7 @@
                   continueAfterRunningActions = "No"
                   symbolName = "StudyAbroad.DetailVC.theTextView.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UITextView&gt;"
                   moduleName = "StudyAbroad"
+                  usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/nickschumacher/Desktop/Development/Study%20Abroad/StudyAbroad/StudyAbroad/DetailVC.swift"
                   timestampString = "450040783.136244"
                   startingColumnNumber = "9223372036854775807"
@@ -52,6 +54,7 @@
                   continueAfterRunningActions = "No"
                   symbolName = "StudyAbroad.DetailVC.init (StudyAbroad.DetailVC.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; StudyAbroad.DetailVC"
                   moduleName = "StudyAbroad"
+                  usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/nickschumacher/Desktop/Development/Study%20Abroad/StudyAbroad/StudyAbroad/DetailVC.swift"
                   timestampString = "450040783.136354"
                   startingColumnNumber = "9223372036854775807"
@@ -66,6 +69,7 @@
                   continueAfterRunningActions = "No"
                   symbolName = "StudyAbroad.DetailVC.init (StudyAbroad.DetailVC.Type)() -&gt; StudyAbroad.DetailVC"
                   moduleName = "StudyAbroad"
+                  usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/nickschumacher/Desktop/Development/Study%20Abroad/StudyAbroad/StudyAbroad/DetailVC.swift"
                   timestampString = "450040783.136446"
                   startingColumnNumber = "9223372036854775807"
@@ -80,6 +84,7 @@
                   continueAfterRunningActions = "No"
                   symbolName = "StudyAbroad.DetailVC.init (StudyAbroad.DetailVC.Type)(coder : ObjectiveC.NSCoder) -&gt; StudyAbroad.DetailVC"
                   moduleName = "StudyAbroad"
+                  usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/nickschumacher/Desktop/Development/Study%20Abroad/StudyAbroad/StudyAbroad/DetailVC.swift"
                   timestampString = "450040783.136546"
                   startingColumnNumber = "9223372036854775807"
@@ -121,6 +126,7 @@
                   continueAfterRunningActions = "No"
                   symbolName = "swift_dynamicCastClassUnconditional"
                   moduleName = "libswiftCore.dylib"
+                  usesParentBreakpointCondition = "Yes"
                   offsetFromSymbolStart = "56">
                </Location>
             </Locations>
